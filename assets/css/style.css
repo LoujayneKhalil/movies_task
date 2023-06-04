@@ -1,0 +1,80 @@
+@font-face {
+  font-family: mainFont;
+  src: url(/assets/fonts/2030-regular.otf);
+}
+body {
+  margin: 20px 200px;
+  font-family: mainFont;
+}
+
+.stats {
+  padding: 15px 10px;
+  margin-top: 20px;
+  border: 1px solid grey;
+}
+.stats h6 {
+  margin-bottom: 10px;
+}
+
+.movie-cards {
+  padding: 40px 70px;
+}
+.movie-cards h6 {
+  font-size: 20px;
+  padding: 0 10px;
+}
+.movie-cards span {
+  font-size: 16px;
+}
+.movie-cards .card {
+  cursor: pointer;
+}
+
+.turn-page {
+  display: flex;
+  justify-content: center;
+}
+.turn-page button {
+  height: 35px;
+  padding: 0 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.pop-up {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.pop-up .close-btn {
+  position: fixed;
+  top: 100px;
+  right: 370px;
+  color: lightgray;
+  cursor: pointer;
+}
+.pop-up .close-btn:hover {
+  color: dimgray;
+}
+.pop-up .popup-content {
+  margin: auto;
+  height: auto;
+  width: 800px;
+  background-color: white;
+  position: relative;
+  margin-top: 130px;
+}
+.pop-up .popup-content .wrapper {
+  display: flex;
+}
+.pop-up .popup-content .wrapper .popup-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}/*# sourceMappingURL=style.css.map */
